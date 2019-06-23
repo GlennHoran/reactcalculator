@@ -4,9 +4,9 @@ import Calculator from './components/Calculator'
 
 function App() {
   return (
-<div>
-  <h1>
-    Calculator App
+<div className="app">
+  <h1 className="header">
+    Add two numbers
   </h1>
 <Calculator/>
 </div>

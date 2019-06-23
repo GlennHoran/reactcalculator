@@ -31,11 +31,16 @@ export default class Calculator extends React.Component {
     render() {
         return (
             <div className = "calculator">
-                Number 1:  <input className="input" name= "num1" value={this.state.num1} onChange={this.handleChange} type = "number"/>
-                Number 2:  <input className="input" name = "num2" value={this.state.num2} onChange={this.handleChange}  type = "number"/>
-
-                <button className = "button" onClick={this.handleSubmit}>Calculate Result</button>
-                <div>Result: {this.state.result}</div>
+                <div className="input">
+                    Number 1:  <input  name= "num1" value={this.state.num1} onChange={this.handleChange} type = "number"/>
+                </div>
+                <div className="input">
+                    Number 2:  <input name = "num2" value={this.state.num2} onChange={this.handleChange}  type = "number"/>
+                </div>
+                <div className="button">
+                    <button className = "button" onClick={this.handleSubmit}>Calculate Result</button>
+                </div>
+                <div className="result">Result: {this.state.result}</div>
             </div>
         )
     }
