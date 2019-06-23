@@ -1,4 +1,5 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+For use with : https://github.com/GlennHoran/spring-calculator-api
+
 
 ## Available Scripts
 
